@@ -1,0 +1,19 @@
+.header{
+    width: 80%;
+    font-size: 22px;
+    }
+    
+    body{
+    background: aqua ;
+    color: azure;
+    }
+    .objects,#obj_name,#odj_acc{
+    color: yellow ;
+    font-size: 20px;
+    }
+    #camera{
+    border: 2px dashed black;
+    width: 350;
+    height: 300px;
+    }
+    
