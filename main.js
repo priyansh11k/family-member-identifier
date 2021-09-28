@@ -16,7 +16,7 @@ Webcam.set({
     }
     
     console.log('ml5 version is ', ml5.version);
-    classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/IleNyLoVo/model.json');
+    classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/IleNyLoVo/model.json',model_loaded);
 
     function model_loaded(){
         console.log("model is loaded");
